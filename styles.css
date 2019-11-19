@@ -9,6 +9,7 @@
     line-height: inherit;
     color:inherit;
 }
+
 html, body {
     font-family: 'Consolas', 'monaco', monospace;
     font-size: 18px;
@@ -16,14 +17,17 @@ html, body {
     color:#444;
     text-shadow: 1px 1px 0px #fff;
 }
+
 body{
     text-align: center;
 }
+
 h1{
     font-size: 36px;
     line-height: 50px;
     font-weight: bold;
 }
+
 h1 sub {
     color: #aaa;
     vertical-align: baseline;
@@ -31,15 +35,25 @@ h1 sub {
 h1 sub:before {
     content:"(";
 }
+
 h1 sub::after {
     content: ")";
 }
+
+section{
+    border-top: 2px dashed #eeeeee;
+    padding:50px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .hero{
-    outline:1px solid red;
     height:100vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    border: 0px;
+    padding: 0px;
 }
 .hero img {
     width: 100%;
