@@ -40,6 +40,20 @@ h1 sub::after {
     content: ")";
 }
 
+h2{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+a{
+    color:#58b;
+}
+
+a:hover{
+    color:#369;
+}
+
 section{
     border-top: 2px dashed #eeeeee;
     padding:50px 0;
@@ -55,10 +69,12 @@ section{
     border: 0px;
     padding: 0px;
 }
+
 .hero img {
     width: 100%;
     height: 100%;
 }
+
 .headshot {
     width: 300px;
     height: 300px;
@@ -67,16 +83,28 @@ section{
     margin-left: auto;
     margin-right: auto;
     transition:transform 1s, box-shadow 1s;
-    background-image: url("cbrownlee_bg.jpg");
+    background-image: url("images/cbrownlee_bg.jpg");
     background-size: contain;
 }
+
 .headshot:hover {
     transform: rotate(360deg);
     box-shadow: 0px 0px 100px 50px #00e1ff;
 }
+
 .headshot img {
     transition: opacity 1s;
 }
+
 .headshot:hover img{
     opacity: 0;
+}
+
+.list li{
+    display:inline;
+    font-weight: bold;
+}
+
+.list li:not(:last-child):after{
+    content: ", ";
 }
