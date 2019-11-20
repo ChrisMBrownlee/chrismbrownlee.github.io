@@ -30,8 +30,9 @@ h1{
 
 h1 sub {
     color: #aaa;
-    vertical-align: baseline;
+    vertical-align: middle;
 }
+
 h1 sub:before {
     content:"(";
 }
@@ -89,7 +90,8 @@ section{
 
 .headshot:hover {
     transform: rotate(360deg);
-    box-shadow: 0px 0px 100px 50px #00e1ff;
+    box-shadow: 0px 0px 100px 50px #00e1ff,
+                0px 0px 100px 20px purple inset;
 }
 
 .headshot img {
@@ -114,7 +116,7 @@ section{
     justify-content: center;
     border-style: solid;
     border-width: 10px;
-    border-color:#fff #eee;
+    border-color:#fff rgb(88, 9, 78);
 }
 
 .blocklist > li > div {
