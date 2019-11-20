@@ -116,7 +116,7 @@ section{
     justify-content: center;
     border-style: solid;
     border-width: 10px;
-    border-color:#fff rgb(88, 9, 78);
+    border-color:#fff purple;
 }
 
 .blocklist > li > div {
