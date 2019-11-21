@@ -195,7 +195,7 @@ address{
 .nav li{
     list-style-type: none;
     flex-grow: 1;
-    border: 3px ridge rgba(170, 50, 220, .6);
+    border: 3px ridge rgba(200, 50, 220);
 }
 
 .nav li a{
