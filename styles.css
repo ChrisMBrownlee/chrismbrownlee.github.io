@@ -1,5 +1,5 @@
 *{
-    background-color: #10111F;
+    background-color: #141414;
     margin:0;
     padding:0;
     border:0;    
@@ -16,8 +16,8 @@ html, body {
     font-family: 'Consolas', 'monaco', monospace;
     font-size: 18px;
     line-height: 30px;
-    color:#9174b7;
-    text-shadow: 1px 1px 0px #000000;
+    color:#ffffff;
+    text-shadow: 1px 1px 0px #424242;
 }
 
 body{
@@ -29,11 +29,11 @@ h1{
     font-size: 36px;
     line-height: 50px;
     font-weight: bold;
-    color: #9174B7
+    color: #ffffff
 }
 
 h1 sub {
-    color: #422F5A;
+    color: #ffffff;
     vertical-align: middle;
 }
 
@@ -49,21 +49,21 @@ h2{
     font-size: 24px;
     line-height: 40px;
     font-weight: bold;
-    color:#499BD9;
+    color:#ffffff;
 }
 
 a{
-    color:#88C9FA;
+    color: #0000ee;
 }
 
 a:hover{
-    color:#097CD5;
+    color: #ff6133;
 }
 
 section{
-    border-top: 3px solid #50396F;
+    border-top: 3px solid #ff6133;
     padding:50px 10px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -73,10 +73,10 @@ section:target h1{
 
 @keyframes flash{
     from{
-        text-shadow:5px 5px 0px #50396F,
-                    -5px -5px 0px #5684A7;
+        text-shadow:5px 5px 0px #ff6133,
+                    -5px -5px 0px #ff6133;
     } to {
-        text-shadow:0px 0px 0px #50396F;
+        text-shadow:0px 0px 0px #424242;
     }
 }
 
@@ -103,19 +103,13 @@ address{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 3px ridge #50396F;
+    border: 3px ridge #ff6133;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    transition:transform 1s, box-shadow 1s;
-    background-image: url("images/cbrownlee_bg.jpg");
-    background-size: contain;
 }
 
 .headshot:hover {
-    transform: rotate(360deg);
-    box-shadow: 0px 0px 100px 50px #5684A7,
-                0px 0px 100px 20px #355166 inset;
 }
 
 .headshot img {
@@ -123,7 +117,6 @@ address{
 }
 
 .headshot:hover img{
-    opacity: 0;
 }
 
 .list li{
@@ -140,7 +133,7 @@ address{
     justify-content: center;
     border-style: solid;
     border-width: 10px;
-    border-color:#10111F #5b3b85;
+    border-color:#141414 #ff6133;
 }
 
 .blocklist > li > div {
@@ -149,8 +142,8 @@ address{
 }
 
 .blocklist > li > img{
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 300px;
     margin:0 10px;
 }
 
@@ -199,18 +192,18 @@ address{
 .nav li{
     list-style-type: none;
     flex-grow: 1;
-    border: 3px ridge #6b4c94;
+    border: 3px ridge #ff6133;
 }
 
 .nav li a{
     display: block;
     line-height: 50px;
-    background-color: #10111F;
-    color: #69B4ED;
-    text-shadow: 1px 1px 0px #1777C0;
+    background-color: #141414;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #424242;
     transition:background-color 0.2s;
 }
 
 .nav li a:hover{
-    background-color: #54377a;
+    background-color: #ff6133;
 }
